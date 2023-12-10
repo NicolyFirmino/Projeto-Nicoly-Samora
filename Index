@@ -11,11 +11,77 @@
     <h2>Site livros gratuitos</h2><br>
     <h3>Esse é apenas um site </h3><br><hr>
     <p>Teste de livros </p><hr>
-
+<br>
     <a href="https://doceru.com/">Site de livros</a>
-    </body>
-
+    
+<br> <hr> <br> <br>
     <!--teste de comentarios-->
+
+    <!--Inserir imagem -->
+    <img src="img/paisagem.jpg"/>
+    <!--para inserir imagem, coloca-se a tag img, abre o diretório (s
+        
+        rc) e inclui o nome da pasta que a foto
+    se encontra e o nome da imagem da página da foto-->
+
+    <!--Atributo alt que é um texto que descreve a imagem, ou seja, para quem não consegue ler, esse atributo 
+    serve para descrever o que é essa imagem (lendo em voz alta, para quem não consegue enxergar)-->
+    <br>
+
+    <img src="img/paisagem2.jpg" alt="dia ensolarado, céu azul e um campo com árvores">
+
+    <!--Listas Não Ordenadas são criadas pela tag ul
+    E cada lista é representado pela tag li (são os itens das listas, aberto para cada um)-->
+
+    <ul>
+        <li>suspense</li>
+        <li>romance</li>
+        <li>terror</li>
+        <li>ficção cientifica</li>
+
+    </ul>
+    <br>
+
+    <!--Listas Ordenadas: criadas pela tag ol (listas com números) e os itens continuam com li-->
+    <ol>
+        <li>estudar</li>
+        <li>conferência das matérias de pedagogia</li>
+        <li>organização terceiro semetre</li>
+        <li>finalizar a unha</li>
+    </ol>
+
+    <!--Tabelas: categorizados em colunas, não tão utilizadas, utilizado pela tag TABLE, cada linha é
+    utilizada uma tag tr e os dados ficam em td, e no cabeçalho, utilizamos tag th-->
+
+    <table>
+        <tr>
+            <th>ID:</th>
+            <th>Nome:</th>
+            <th>Profissão:</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nicoly</td>
+            <td>Estagiária</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Samora</td>
+            <td>Engenheiro Quimico</td>
+        </tr>
+    </table>
+
+
+    <!--Tag Div: São divisões no site-->
+
+    <div>
+        <H2> Título da Seção</H2>
+        <p>Descrição da seção, texto relacionado a matéria estudada 12</p>
+        <a href="#">Mais informações</a>
+    </div>
+
+    
+</body>
 
 </html>
 
